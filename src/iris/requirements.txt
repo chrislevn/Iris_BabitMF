@@ -1,0 +1,7 @@
+BabitMF
+easyocr
+numpy
+opencv-python
+Pillow
+requests
+datafog
