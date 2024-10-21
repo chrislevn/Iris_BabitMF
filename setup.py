@@ -1,4 +1,11 @@
 from setuptools import setup, find_packages
+from setuptools.command.install import install
+import os
+
+class PostInstallCommand(install):
+    def run(self):
+        install.run(self)
+        os.system("python -m spacy download en_core_web_lg")
 
 setup(
     name="iris",                    

@@ -5,3 +5,7 @@ opencv-python
 Pillow
 requests
 datafog
+presidio-image-redactor
+wurlitzer
+whisper-timestamped
+torch
