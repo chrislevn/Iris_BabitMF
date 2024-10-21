@@ -6,6 +6,7 @@ class PostInstallCommand(install):
     def run(self):
         install.run(self)
         os.system("python -m spacy download en_core_web_lg")
+        os.system("sudo apt-get install tesseract-ocr")
 
 setup(
     name="iris",                    
