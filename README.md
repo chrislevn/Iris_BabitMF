@@ -2,6 +2,8 @@
 Iris is a PII removal package based on BabitMF - a cross-platform video proceessing platform from ByteDance. 
 This is an on-going project to achive real-time PII and senstive audio detection and removal. 
 
+![Untitled Diagram drawio (1)](https://github.com/user-attachments/assets/75479028-47e0-475f-b5ab-1e5e1d9b57cb)
+
 ## Features:
 - Detect and remove PII (credit card, phone number, email, etc) from image.
 
